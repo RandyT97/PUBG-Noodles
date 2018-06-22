@@ -20,7 +20,7 @@ PUBG Noodles is intended to be a website to provide interesting statistics to pl
 ## 📚Useful Resources📚
 * [React Resources](https://github.com/enaqx/awesome-react)
 * [Python 3.6](https://docs.python.org/3.6/tutorial/index.html)
-* [Django 2.0]([https://docs.djangoproject.com/en/2.0/)
+* [Django 2.0](https://docs.djangoproject.com/en/2.0/)
 * [Django Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
 * [HTML Mozilla](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 * [CSS Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS)
