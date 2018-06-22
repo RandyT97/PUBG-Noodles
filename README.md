@@ -11,7 +11,6 @@ PUBG Noodles is intended to be a website to provide interesting statistics to pl
 
 ### Front-End:
 * React v16.4.1
-* Node v8.11.3
 * HTML/CSS/JS ES6
 
 ### External APIs:
