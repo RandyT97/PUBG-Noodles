@@ -1,6 +1,7 @@
 /node_modules
 /build
 /static
+webpack-stats.json
 
 *.pyc
 *.sqlite3
