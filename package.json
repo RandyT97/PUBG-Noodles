@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "webpack --mode development ./src/index.js --output ./main.js",
-    "build": "webpack --mode production ./src/index.js --output ./main.js"
+    "build": "webpack --mode production ./src/index.js --output ./main.js",
+    "start:dev" : "webpack-dev-server"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
