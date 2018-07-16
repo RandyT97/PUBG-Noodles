@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class ExappConfig(AppConfig):
-    name = 'exapp'
+class NoodleConfig(AppConfig):
+    name = 'noodle'
