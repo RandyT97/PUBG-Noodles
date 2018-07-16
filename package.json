@@ -8,8 +8,8 @@
     "style-loader": "^0.21.0"
   },
   "scripts": {
-    "dev": "webpack --mode development ./Django/exapp/static/index.js --output ./main.js",
-    "build": "webpack --mode production ./Django/exapp/static/index.js --output ./main.js",
+    "dev": "webpack --mode development ./Django/noodle/static/index.js --output ./main.js",
+    "build": "webpack --mode production ./Django/noodle/static/index.js --output ./main.js",
     "start:dev" : "webpack-dev-server"
   },
   "devDependencies": {
