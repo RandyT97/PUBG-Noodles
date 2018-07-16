@@ -5,7 +5,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'build')
-  }
+  },
   module: {
     rules: [
       {
@@ -17,6 +17,10 @@ module.exports = {
             presets: ['env', 'react']
           }
         }
+      },
+      {
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
       }
     ]
   }
