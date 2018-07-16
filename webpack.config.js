@@ -1,4 +1,5 @@
 const path = require('path');
+var BundleTracker = require('webpack-bundle-tracker');
 
 module.exports = {
   context: __dirname,
@@ -9,6 +10,10 @@ module.exports = {
     path: path.resolve('./Django/noodle/static/bundles/'),
     filename: 'bundles.js'
   },
+
+  plugins: [
+    new BundleTracker({filename: './Django/webpack-stats.json'}),
+  ],
 
   module: {
     rules: [

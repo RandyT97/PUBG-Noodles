@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "style-loader": "^0.21.0"
+    "style-loader": "^0.21.0",
+    "webpack-bundle-tracker": "^0.3.0"
   },
   "scripts": {
     "dev": "webpack --mode development ./Django/noodle/static/index.js",
