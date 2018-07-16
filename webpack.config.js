@@ -1,11 +1,15 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  context: __dirname,
+
+  entry: './Django/noodle/static/index.js',
+
   output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'build')
+    path: path.resolve('./Django/noodle/static/bundles/'),
+    filename: 'bundles.js'
   },
+
   module: {
     rules: [
       {

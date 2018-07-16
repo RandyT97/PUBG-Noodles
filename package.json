@@ -8,9 +8,9 @@
     "style-loader": "^0.21.0"
   },
   "scripts": {
-    "dev": "webpack --mode development ./Django/noodle/static/index.js --output ./main.js",
-    "build": "webpack --mode production ./Django/noodle/static/index.js --output ./main.js",
-    "start:dev" : "webpack-dev-server"
+    "dev": "webpack --mode development ./Django/noodle/static/index.js",
+    "build": "webpack --mode production ./Django/noodle/static/index.js",
+    "start:dev": "webpack-dev-server"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
