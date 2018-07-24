@@ -11,7 +11,7 @@ PUBG Noodles is intended to be a website to provide interesting statistics to pl
 
 ### Front-End:
 * React v16.4.1
-* HTML/CSS/JS ES6
+* HTML/CSS/JS
 
 ### External APIs:
 * PUBG Developer API
@@ -24,8 +24,17 @@ PUBG Noodles is intended to be a website to provide interesting statistics to pl
 * [HTML Mozilla](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 * [CSS Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS)
 * [JavaScript Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
-* [Javascript ES6](https://www.tutorialspoint.com/es6/index.htm)
 * [The Fundamentals of GitHub](https://guides.github.com/)
 
+## Setup Instructions
+1. Navigate to src/
+2. Run ```mkvirtualenv noodle -p python3```
+3. Run ```workon noodle``` to open the virtual env in the future
+4. In the src/ directory, run ```pip install -r requirements.txt```
+5. Navigate to src/reactify-ui/
+6. Run ```npm install```
 
+## Run Instructions
+* In order to update changes, run ```npm run collect``` in src/reactify-ui/
+* To launch server run ```python manage.py runserver``` in src/
 
