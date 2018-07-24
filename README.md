@@ -30,7 +30,6 @@ PUBG Noodles is intended to be a website to provide interesting statistics to pl
 * [NPM](https://docs.npmjs.com/getting-started/installing-node)
 * [PIP](https://pip.pypa.io/en/stable/installing/)
 
-
 ## Setup Instructions
 1. Navigate to src/
 2. Run ```mkvirtualenv noodle -p python3```
